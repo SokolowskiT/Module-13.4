@@ -5,7 +5,6 @@ function getInfo() {
 	var type = os.type();
 	var release = os.release();
 	var cpu = os.cpus()[0].model;
-	/*var uptime = os.uptime();*/
 	var userInfo = os.userInfo();
 	if (type === 'Darwin') {
 		type = 'OSX';
